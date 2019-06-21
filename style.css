@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #19C6FF;
+    height: 200px;
+    
+}
+
+#titulo{
+    width: 60vw;
+}
+
+h1{
+    width: 50%;
+    background: rgba(255, 247, 0, 0.466);
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+    color: #0027EB;
+    text-shadow: 2px 2px #FFF800;
+    box-shadow: #FFF800 0px 0px 40px 2px;
+    border-radius: 5px;
+
+
+}
+
+#logogatinho{
+    width: 20vw;
+    margin-left: 10px;
+}
+
+#logogatinho img{
+    width: 200px;
+
+}
+
+#cardapio{
+    margin: 0 auto;
+    width: 80vw;
+    /*height: 80vh;*/
+    box-shadow: rgba(0, 0, 0, 0.377) 0px 16px 30px;
+}
+
+.itemCardapio{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Open Sans Condensed';
+}
+
+.itemCardapio div{
+    margin: 8px;
+}
