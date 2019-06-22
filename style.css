@@ -1,41 +1,48 @@
 *{
     margin: 0;
+    
 }
 
 header{
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #19C6FF;
-    height: 200px;
-    
+    height: 200px;   
 }
 
 #titulo{
     width: 60vw;
+    background-color: #19C6FF;
 }
 
 h1{
     width: 50%;
-    background: rgba(255, 247, 0, 0.466);
+    /*background: rgba(255, 247, 0, 0.466); */
     text-align: center;
     font-family: 'Indie Flower', cursive;
-    font-size: 70px;
+    font-size: 75px;
     color: #0027EB;
-    text-shadow: 2px 2px #FFF800;
-    box-shadow: #FFF800 0px 0px 40px 2px;
-    border-radius: 5px;
-
+    text-shadow: 2px 2px rgba(255, 247, 0, 0.527);
+   /* box-shadow: #FFF800 0px 0px 40px 2px;
+    border-radius: 5px; */
+    background-color: #19C6FF;
 
 }
 
 #logogatinho{
     width: 20vw;
-    margin-left: 10px;
+    height: 200px;
+    margin-right: 200px;
+    background-size: 100px;
+    background-color: #19C6FF;
+    
 }
 
 #logogatinho img{
     width: 200px;
+    border-radius: 30px;
 
 }
 
@@ -43,7 +50,9 @@ h1{
     margin: 0 auto;
     width: 80vw;
     /*height: 80vh;*/
-    box-shadow: rgba(0, 0, 0, 0.377) 0px 16px 30px;
+    box-shadow: rgba(247, 223, 6, 0.377) 0px 16px 30px;
+    background-color: rgba(255, 234, 0, 0.445);
+    
 }
 
 .itemCardapio{
@@ -53,6 +62,7 @@ h1{
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Open Sans Condensed';
+    font-size: 17px;
 }
 
 .itemCardapio div{

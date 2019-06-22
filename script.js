@@ -1,38 +1,38 @@
 const listaDeComidas = [
     {
-        "nome": "Cupcake Feliz",
+        "nome": "Founde Feliz",
         "descricao": "É instantâneo! Se comer, ficará muito feliz!",
-        "preco": 8,
-        "imagem": 'https://truffle-assets.imgix.net/8dd6f17a-funfetti-freakshake-cupcakes-sc.jpg'
+        "preco": 10,
+        "imagem": 'http://www.lovethispic.com/uploaded_images/84571-Strawberry-Chocolate-Fondue.jpg'
 
     },
 
     {
-        "nome": "Bolo Colorido",
-        "descricao": "Colora sua vida com esse bolo saboroso",
-        "preco": 11,
-        "imagem": 'https://i.pinimg.com/originals/18/26/40/182640c6d5ae282de50a24f0e0493205.jpg'
+        "nome": "Esquenta Coração",
+        "descricao": "Esquente sua vida com essa bebida saborosa!",
+        "preco": 6,
+        "imagem": 'https://www.giassi.com.br/upload/notice_image/2014/07/Destaque-Chocolate-quente-com-canela.jpg'
     },
 
     {
         "nome": "Chocolate Mágico",
-        "descricao": "Ganhe poderes mágicos ao saborear essa delícia!",
+        "descricao": "Ganhe poderes mágicos ao saborear esse bolo delícia!",
         "preco": 8,
-        "imagem": 'https://www.davidlebovitz.com/wp-content/uploads/2018/03/Chocolate-pot-de-creme-recipe-7-640x427.jpg'
+        "imagem": 'https://img.itdg.com.br/images/recipes/000/007/480/284957/284957_original.jpg'
     },
 
     {
         "nome": "Marshmallow das Nuvens",
-        "descricao": "Se sinta nas nuvens depois de comer um delicioso marshmallow!",
-        "preco": 5,
-        "imagem": 'https://assets.xtechcommerce.com/uploads/summernote/full/6b2bb53ff8b0d29e1c07507434099c38.jpg'
+        "descricao": "Se sinta nas nuvens depois de uma bebida quente com deliciosos marshmallows!",
+        "preco": 6,
+        "imagem": 'https://image.freepik.com/fotos-gratis/chocolate-quente-com-receita-de-marshmallows_53876-18258.jpg'
     },
 
     {
-        "nome": "Torta Poderosa",
+        "nome": "Cookie Poderoso",
         "descricao": "Você vai receber poderes cósmicos e fenomenais!",
-        "preco": 11,
-        "imagem": 'https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2017/08/Mini-Apple-Pies.jpg?resize=1360%2C2040&ssl=1'
+        "preco": 12,
+        "imagem": 'https://www.thebakingchocolatess.com/wp-content/uploads/2015/06/perfect-cookies.jpg'
     }
 ];
 
@@ -47,8 +47,8 @@ listaDeComidas.forEach(comida => {
         </div>
         <div>
             <p><strong>Nome: </strong>${comida.nome}</p>
-            <p><strong>Descricão:</strong> ${comida.descricao}</p> 
-            <p><strong>Preco:</strong> R$${comida.preco},00</p>
+            <p><strong>Descrição:</strong> ${comida.descricao}</p> 
+            <p><strong>Preço:</strong> R$${comida.preco},00</p>
         </div>
     `
     cardapio.appendChild(itemDoCardapio);
